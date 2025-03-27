@@ -90,4 +90,75 @@ class TextStyles {
     color: Color(0xFF232323),
   );
 
+  static TextStyle get productTitle => const TextStyle(
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w600,
+    fontSize: 24,
+    color: Color(0xFF232323),
+  );
+
+  static TextStyle get mapButtonText => const TextStyle(
+    fontFamily: 'CircularXX',
+    fontWeight: FontWeight.w700,
+    fontSize: 14,
+    color: AppColors.blueGradient1,
+  );
+
+  static TextStyle get ratingText => const TextStyle(
+    fontFamily: 'CircularXX',
+    fontWeight: FontWeight.w400,
+    fontSize: 12,
+    color: Color(0xFF606060),
+  );
+
+  static TextStyle get descriptionText => const TextStyle(
+    fontFamily: 'CircularXX',
+    fontWeight: FontWeight.w500,
+    fontSize: 14,
+    color: Color(0xFF3A544F),
+    height: 1.5,
+  );
+
+  static TextStyle get readMoreText => const TextStyle(
+    fontFamily: 'CircularXX',
+    fontWeight: FontWeight.w700,
+    fontSize: 14,
+    color: AppColors.blueGradient1,
+  );
+
+  static TextStyle get facilitiesTitle => const TextStyle(
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w600,
+    fontSize: 18,
+    color: Color(0xFF232323),
+  );
+
+  static TextStyle get facilityLabel => const TextStyle(
+    fontFamily: 'CircularXX',
+    fontWeight: FontWeight.w500,
+    fontSize: 10,
+    color: Color(0xFFB8B8B8),
+  );
+
+  static TextStyle get priceLabel => const TextStyle(
+    fontFamily: 'CircularXX',
+    fontWeight: FontWeight.w500,
+    fontSize: 12,
+    color: Color(0xFF232323),
+  );
+
+  static TextStyle get priceAmount => const TextStyle(
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w700,
+    fontSize: 24,
+    color: Color(0xFF2DD7A4),
+  );
+
+  static TextStyle get bookNowText => const TextStyle(
+    fontFamily: 'CircularXX',
+    fontWeight: FontWeight.w600,
+    fontSize: 16,
+    color: Colors.white,
+  );
+
 }

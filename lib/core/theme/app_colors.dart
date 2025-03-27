@@ -24,6 +24,10 @@ class AppColors {
 
   static const packageDurationBg = Color(0xFF3A544F);
   static const cardBorder = Color(0xFFF4F4F4);
+
+  static const facilityGradientStart = Color(0x0D176FF2);
+  static const facilityGradientEnd = Color(0x0D196EEE);
+
 }
 
 class Gradients {
